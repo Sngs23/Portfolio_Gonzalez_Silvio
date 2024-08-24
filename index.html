@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'><!-- Boxicons -->
+
+    <title>Gonzalez Stiglich Silvio</title>
+</head>
+
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Silvio Gonzalez Stiglich</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link active-link">Inicio</a></li>
+                    <li class="nav__item"><a href="#sobre_mi" class="nav__link">Sobre mi</a></li>
+                    <li class="nav__item"><a href="#habilidades" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#proyectos" class="nav__link">proyectos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="inicio bd-grid" id="inicio">
+            <div class="inicio__data">
+                <h1 class="inicio__title">Hola,<br>soy <span class="inicio__title-color">Silvio Gonzalez
+                        Stiglich</span><br> Fullstack Developer</h1>
+                <a href="#" class="button">Contacto</a>
+            </div>
+
+            <div class="inicio__social">
+                <a href="" class="inicio__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="" class="inicio__social-icon"><i class='bx bxl-facebook'></i></a>
+                <a href="" class="inicio__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="inicio__img">
+                <svg class="inicio " viewBox="0 0 300 300">
+                    <image class="inicio-img" x="0" y="0" width="300" height="300" href="assets/img/perfil.png" />
+                </svg>
+            </div>
+
+        </section>
+        <section class="sobre_mi section " id="sobre_mi">
+            <h2 class="section-title">Sobre mi</h2>
+
+            <div class="sobre_mi__container bd-grid">
+                <div class="sobre_mi__img">
+                    <img src="assets/img/sobre_mi.png" alt="imagen_perfil_silvio_gonzalez">
+                </div>
+
+                <div>
+                    <h2 class="sobre_mi__subtitle">Soy Silvio Gonzalez Stiglich</h2>
+                    <p class="sobre_mi__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum
+                        expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo
+                        recusandae cumque perferendis! Recusandae alias accusamus atque.</p>
+                </div>
+            </div>
+        </section>
+        <section class="habilidades section" id="habilidades">
+            <h2 class="section-title">Habilidades</h2>
+
+            <div class="habilidades__container bd-grid">
+                <div>
+                    <h2 class="habilidades__subtitle">Profesional habilidades</h2>
+                    <p class="habilidades__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio
+                        id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                    <div class="habilidades__data">
+                        <div class="habilidades__names">
+                            <i class='bx bxl-html5 habilidades__icon'></i>
+                            <span class="habilidades__name">HTML5</span>
+                        </div>
+                    </div>
+                    <div class="habilidades__data">
+                        <div class="habilidades__names">
+                            <i class='bx bxl-css3 habilidades__icon'></i>
+                            <span class="habilidades__name">CSS/SCSS</span>
+                        </div>
+                    </div>
+                    <div class="habilidades__data">
+                        <div class="habilidades__names">
+                            <i class='bx bxl-javascript habilidades__icon'></i>
+                            <span class="habilidades__name">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="habilidades__data">
+                        <div class="habilidades__names">
+                            <i class='bx bxl-nodejs habilidades__icon'></i>
+                            <span class="habilidades__name">NodeJs</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/proyecto2.png" alt="" class="habilidades__img">
+                </div>
+            </div>
+        </section>
+        <section class="proyectos section" id="proyectos">
+            <h2 class="section-title">proyectos</h2>
+
+            <div class="proyectos__container bd-grid">
+                <a href="" class="proyecto__img">
+                    <img src="assets/img/proyecto1.png" alt="">
+                </a>
+                <a href="" class="proyecto__img">
+                    <img src="assets/img/proyecto2.png" alt="">
+                </a>
+                <a href="" class="proyecto__img">
+                    <img src="assets/img/proyecto3.png" alt="">
+                </a>
+                <a href="" class="proyecto__img">
+                    <img src="assets/img/proyecto4.png" alt="">
+                </a>
+                <a href="" class="proyecto__img">
+                    <img src="assets/img/proyecto5.png" alt="">
+                </a>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contacto</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Ingrese su Nombre" class="contact__input">
+                    <input type="mail" placeholder="Ingrese su Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Enviar" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p>&copy; <span id="year"></span> Sngs23. Todos los derechos reservados.</p>
+    </footer>
+    <!--Obtener el año actual-->
+    <script>const year = new Date().getFullYear(); document.getElementById("year").textContent = year;</script>
+    <!--libreria de animaciones de scroll-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
