@@ -291,6 +291,7 @@ img {
   overflow: hidden;
   margin: 0 auto;
   width: 80%;
+  background-color: white;
 }
 .proyecto__img img {
   transition: 1s;
